@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C57FDFE2-5C6D-480A-AD66-CF0F5CD1CB67}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>FoxGameOfLife.My.MyApplication</StartupObject>
+    <RootNamespace>FoxGameOfLife</RootNamespace>
+    <AssemblyName>FoxGameOfLife</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FoxGameOfLife.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FoxGameOfLife.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EditeurDeTexte.Designer.vb">
+      <DependentUpon>EditeurDeTexte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditeurDeTexte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion des fichiers\EnregistrerPreset.Designer.vb">
+      <DependentUpon>EnregistrerPreset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion des fichiers\EnregistrerPreset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion des fichiers\form_EnregistrerLife.Designer.vb">
+      <DependentUpon>form_EnregistrerLife.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion des fichiers\form_EnregistrerLife.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion des fichiers\EnregistrerSous.Designer.vb">
+      <DependentUpon>EnregistrerSous.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion des fichiers\EnregistrerSous.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exceptions.Designer.vb">
+      <DependentUpon>Exceptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exceptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExceptionsEdition.Designer.vb">
+      <DependentUpon>ExceptionsEdition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExceptionsEdition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filtres\FiltreEpaisseur.Designer.vb">
+      <DependentUpon>FiltreEpaisseur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Filtres\FiltreEpaisseur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filtres\FiltreMelanger.Designer.vb">
+      <DependentUpon>FiltreMelanger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Filtres\FiltreMelanger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filtres\Filtres.vb" />
+    <Compile Include="Gif.vb" />
+    <Compile Include="Informations\APropos.Designer.vb">
+      <DependentUpon>APropos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Informations\APropos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informations\NotesVersion.Designer.vb">
+      <DependentUpon>NotesVersion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Informations\NotesVersion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JDLVEngine.vb" />
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modele.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modèles\EnregistrerModele.Designer.vb">
+      <DependentUpon>EnregistrerModele.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modèles\EnregistrerModele.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modèles\Modeles.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Outils\GenerateurLabyrinthe.Designer.vb">
+      <DependentUpon>GenerateurLabyrinthe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Outils\GenerateurLabyrinthe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterFileReader.vb" />
+    <Compile Include="Parametres\ParametresAnimation.Designer.vb">
+      <DependentUpon>ParametresAnimation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametres\ParametresAnimation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametres\ParametresPlateau.Designer.vb">
+      <DependentUpon>ParametresPlateau.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametres\ParametresPlateau.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pinceaux.vb" />
+    <Compile Include="Presets\OngletPreset.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Raccourcis.Designer.vb">
+      <DependentUpon>Raccourcis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Raccourcis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecupererTouche.Designer.vb">
+      <DependentUpon>RecupererTouche.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RecupererTouche.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EditeurDeTexte.resx">
+      <DependentUpon>EditeurDeTexte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion des fichiers\EnregistrerPreset.resx">
+      <DependentUpon>EnregistrerPreset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion des fichiers\form_EnregistrerLife.resx">
+      <DependentUpon>form_EnregistrerLife.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion des fichiers\EnregistrerSous.resx">
+      <DependentUpon>EnregistrerSous.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exceptions.resx">
+      <DependentUpon>Exceptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExceptionsEdition.resx">
+      <DependentUpon>ExceptionsEdition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtres\FiltreEpaisseur.resx">
+      <DependentUpon>FiltreEpaisseur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtres\FiltreMelanger.resx">
+      <DependentUpon>FiltreMelanger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informations\APropos.resx">
+      <DependentUpon>APropos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informations\NotesVersion.resx">
+      <DependentUpon>NotesVersion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modèles\EnregistrerModele.resx">
+      <DependentUpon>EnregistrerModele.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outils\GenerateurLabyrinthe.resx">
+      <DependentUpon>GenerateurLabyrinthe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametres\ParametresAnimation.resx">
+      <DependentUpon>ParametresAnimation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametres\ParametresPlateau.resx">
+      <DependentUpon>ParametresPlateau.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Raccourcis.resx">
+      <DependentUpon>Raccourcis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecupererTouche.resx">
+      <DependentUpon>RecupererTouche.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crayon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nouveau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selectionMelanger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avancer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parametre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bordure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\couleur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arriereplan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selectionbordureint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gomme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Animation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grille.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\random.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sauvegarder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sauvegardermodele.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dossier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reculer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remplisseur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinceau_ligne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinceau_colonne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croix2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagonale_droite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagonale_gauche.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinceau_mur_perso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MazeGenerator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Application.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editioncellule.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editionvide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ajouter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poubelle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Importer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exporter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fichiersysteme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cellule_permanente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inverserdiagonale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inversercolonne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miroircolonne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miroirligne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nouveau1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thread1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thread2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thread4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Aide\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

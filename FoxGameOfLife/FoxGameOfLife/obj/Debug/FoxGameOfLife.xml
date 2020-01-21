@@ -1,0 +1,707 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FoxGameOfLife
+</name>
+</assembly>
+<members>
+<member name="T:FoxGameOfLife.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources._event">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources._stop">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.aide">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.ajouter">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.Animation">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.arriereplan">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.avancer">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.bordure">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.bt">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.cellule_permanente">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.couleur">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.crayon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.croix">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.croix2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.diagonale_droite">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.diagonale_gauche">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.dossier">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.editioncellule">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.editionvide">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.Exporter">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.fichiersysteme">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.gomme">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.grille">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.image">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.Importer">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.inversercolonne">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.Inverserdiagonale">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.Logo_Application">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.MazeGenerator">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.miroircolonne">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.miroirligne">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.news">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.nouveau">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.nouveau1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.parametre">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.pause">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.pinceau_colonne">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.pinceau_ligne">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.pinceau_mur_perso">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.play">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.poubelle">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.random">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.record">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.reculer">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.remplisseur">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.sauvegarder">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.sauvegardermodele">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.script">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.selection">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.selectionbordureint">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.selectionMelanger">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.thread1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.thread2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.thread4">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FoxGameOfLife.My.Resources.Resources.titre">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:FoxGameOfLife.EditeurDeTexte.InsererTexte(System.String)">
+ <summary>
+ Insère le texte à l'endroit ou se situe le focus du contrôle
+ </summary>
+ <param name="_texteAInserer">Texte à insérer</param>
+</member>
+<member name="T:FoxGameOfLife.Exceptions">
+ <summary>
+ Fenêtre de gestion des exceptions du jeu de la vie
+ </summary>
+</member>
+<member name="T:FoxGameOfLife.ExceptionsControl">
+ <summary>
+ Affichage graphique des exceptions du jeu de la vie
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.ExceptionsControl.OuvrirEditeurException">
+ <summary>
+ Ouvre l'editeur d'exception
+ </summary>
+</member>
+<member name="T:FoxGameOfLife.ExceptionsEdition">
+ <summary>
+ Fenêtre d'édition d'exception du jeu de la vie
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.Filtres.Filtre_Inverser">
+ <summary>
+ Inverse toutes les valeurs du tableau du jeu de la vie
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.Filtres.Filtre_Epaissir(System.Byte,System.Int32)">
+ <summary>
+ Ajoute une épaisseur aux cellules déjà présent sur le tableau
+ </summary>
+ <param name="_valeur">Type d'élément</param>
+ <param name="_epaisseur">Nombre d'épaisseur</param>
+</member>
+<member name="T:FoxGameOfLife.JDLVEngine">
+ <summary>
+ Moteur de jeu de la vie
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.#ctor(System.Drawing.Size,System.Windows.Forms.PictureBox@)">
+ <summary>
+ Constructeur du moteur de jeu de la vie
+ </summary>
+ <param name="_taillePlateau"> Dimension du plateau de jeu de la vie </param>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.SynchronisationThread">
+ <summary>
+ Fonction pour la synchronisation des threads
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.ExporterImage">
+ <summary>
+ Exportation de l'image
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.InitThreading">
+ <summary>
+ Démarre le threading 
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.Thread1Job">
+ <summary>
+ Fonction du thread 1
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.Thread2Job">
+ <summary>
+ Fonction du thread 2
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.Thread3Job">
+ <summary>
+ Fonction du thread 3
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.Thread4Job">
+ <summary>
+ Fonction du thread 4
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.ModifierTexte(System.Drawing.Color,System.Drawing.Font,System.String,System.Drawing.Point)">
+ <summary>
+ Modifie les propriétés du texte
+ </summary>
+ <param name="_couleurTexte">Couleur du texte</param>
+ <param name="_policeTexte">Police du texte</param>
+ <param name="_texte">Texte</param>
+ <param name="_positionTexte">Position du texte</param>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.TexteVariables(System.String)">
+ <summary>
+ Permet de convertir les variables du texte
+ </summary>
+ <param name="_texte">Texte à convertir</param>
+ <returns>Texte converti</returns>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.DessinerTexte">
+ <summary>
+ Dessine le texte sur l'image
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.DessinerEmpreintePinceau(System.Collections.Generic.List{System.Drawing.Point})">
+ <summary>
+ Dessine l'empreinte d'un pinceau selon une liste de points
+ </summary>
+ <param name="_liste_Points">Liste de points qui correspond à l'empreinte du pinceau</param>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.GenererFrameSuivante">
+ <summary>
+ Génère l'image suivante (Ne fonctionne pas en mode édition)
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.Exceptions(System.Int32,System.Int32)">
+ <summary>
+ Teste la présence d'exceptions
+ </summary>
+ <param name="_x">Coordonnées X de la cellule</param>
+ <param name="_y">Coordonnées Y de la cellule</param>
+ <returns></returns>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.NombreCellulesVoisines(System.Int32,System.Int32)">
+ <summary>
+ Permet de récupérer le nombre de cellule voisine d'une case
+ </summary>
+ <param name="x">Coordonnée X de la case</param>
+ <param name="y">Coordonnée Y de la case</param>
+ <returns>Retourne le nombre de cellule voisine d'une case</returns>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.CelluleDansLimites(System.Int32,System.Int32)">
+ <summary>
+ Teste si les coordonnées sont comprises dans les limites du plateau
+ </summary>
+ <param name="x">Coordonnée X</param>
+ <param name="y">Coordonnée Y</param>
+ <returns>Retourne vrai si les coordonnées sont dans les limites du plateau, sinon retourne faux</returns>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.ToutRedimensionner">
+ <summary>
+ Redimensionne la taille du plateau en générant une nouvelle image
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.EffacerTableaux">
+ <summary>
+ Efface toutes les données des tableaux
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.ToutRedessiner">
+ <summary>
+ Redessine toute l'image
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.DessinerCase(System.Int32,System.Int32,System.Byte)">
+ <summary>
+ Dessine une case
+ </summary>
+ <param name="_x">Coordonnée X de la case</param>
+ <param name="_y">Coordonnée Y de la case</param>
+ <param name="_valeur">Valeur du contenu de la case (vrai = cellule)</param>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.Initialisation">
+ <summary>
+ Initialise le plateau
+ </summary>
+</member>
+<member name="P:FoxGameOfLife.JDLVEngine.SetMode(System.Boolean)">
+ <summary>
+ Permet de définir dans quel mode utiliser le moteur
+ </summary>
+ <returns>Si on est en mode édition ou pas</returns>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.GarderConfigurationPlateau">
+ <summary>
+ Garde la configuration du JDLV après un Stop
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.ReinitialiserPlateau">
+ <summary>
+ Reviens en mode séquence
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.OuvrirFichierLife(System.String)">
+ <summary>
+ Ouvre un fichier .Lif
+ </summary>
+ <param name="_path"></param>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.ReinitialiserExceptions">
+ <summary>
+ Efface les listes d'exceptions
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.EffacerSnapshots">
+ <summary>
+ Efface tous les snapshots de la liste
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.AjouterSnapshot">
+ <summary>
+ Ajoute un snapshot
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.JDLVEngine.AppliquerSnapshotPrecedent">
+ <summary>
+ Revient à un état entérieur du plateau
+ </summary>
+</member>
+<member name="P:FoxGameOfLife.JDLVEngine.GetCellValue(System.Int32,System.Int32)">
+ <summary>
+ Retourne la valeur d'une cellule du tableau d'édition
+ </summary>
+ <param name="_x">Position X</param>
+ <param name="_y">Position Y</param>
+ <returns>Si la case contient une cellule</returns>
+</member>
+<member name="T:FoxGameOfLife.JDLVEngine.Snapshot">
+ <summary>
+ Permet d'enregistrer l'état du plateau afin de pouvoir revenir en arrière
+ </summary>
+</member>
+<member name="T:FoxGameOfLife.CellException">
+ <summary>
+ Objet pour le mode exception
+ </summary>
+</member>
+<member name="P:FoxGameOfLife.CellException.GetTableValue(System.Byte,System.Byte)">
+ <summary>
+ Permet de récupérer ou modifier l'état de l'exception
+ </summary>
+ <param name="x">Case x du tableau d'exception</param>
+ <param name="y">Case y du tableau d'exception</param>
+ <returns>Valeur de l'exception</returns>
+</member>
+<member name="T:FoxGameOfLife.Main.Pinceaux">
+ <summary>
+ Liste des pinceaux disponible
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.Main.BoutonPinceauxActif(System.Windows.Forms.Button@)">
+ <summary>
+ Définit le bouton pinceaux actif
+ </summary>
+ <param name="bt">Bouton à activer</param>
+</member>
+<member name="M:FoxGameOfLife.Main.EnregistrerParametres">
+ <summary>
+ Enregistre tous les paramètres
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.Main.RotationDroiteModele(System.Int32,System.Int32,System.Collections.Generic.List{System.Boolean})">
+ <summary>
+ Permet d'effectuer une rotation du modèle à 90° vers la droite
+ </summary>
+ <param name="_largeur">Largeur du modèle</param>
+ <param name="_hauteur">Hauteur du modèle</param>
+ <param name="_liste">Liste des boolean du modèle</param>
+ <returns></returns>
+</member>
+<member name="M:FoxGameOfLife.Main.RotationGaucheModele(System.Int32,System.Int32,System.Collections.Generic.List{System.Boolean})">
+ <summary>
+ Permet d'effectuer une rotation du modèle à 90° vers la droite
+ </summary>
+ <param name="_largeur">Largeur du modèle</param>
+ <param name="_hauteur">Hauteur du modèle</param>
+ <param name="_liste">Liste des boolean du modèle</param>
+ <returns></returns>
+</member>
+<member name="M:FoxGameOfLife.Main.GetParameter(System.String,System.Int32)">
+ <summary>
+ Récupère un paramètre dans une commande
+ </summary>
+ <param name="command">Commande</param>
+ <param name="parameternumber">Numéro de paramètre</param>
+ <returns>Valeur du paramètre</returns>
+</member>
+<member name="M:FoxGameOfLife.Main.GetCommandName(System.String)">
+ <summary>
+ Récupère le nom d'une commande (sans ses parenthèses et ses paramètres)
+ </summary>
+ <param name="command">Commande</param>
+ <returns>Nom de la commande</returns>
+</member>
+<member name="T:FoxGameOfLife.Modele">
+ <summary>
+ Modèle de structure pour le jeu de la vie
+ Sert de base pour les pinceaux
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.Modeles.CreerModeles">
+ <summary>
+ Création des modèles de bases
+ </summary>
+</member>
+<member name="T:FoxGameOfLife.ParameterFileReader">
+ <summary>
+ Permet d'intéragir avec un fichier de paramètres
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.ParameterFileReader.ReadFile(System.String,System.Boolean)">
+ <summary>
+ Lit le fichier contenant les paramètres et les récupère dans parameter_table
+ </summary>
+ <param name="path">Chemin d'accès au fichier</param>
+ <param name="clearparameters">true si il faut supprimer les paramètres actuels</param>
+</member>
+<member name="M:FoxGameOfLife.ParameterFileReader.ResetParameter">
+ <summary>
+ Réinitialise la liste des paramètres
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.ParameterFileReader.ParameterCount">
+ <summary>
+ Retourne le nombre de paramètres
+ </summary>
+ <returns>Nombre de paramètre(s) enregistré(s)</returns>
+</member>
+<member name="M:FoxGameOfLife.ParameterFileReader.SetParameter(System.String,System.String)">
+ <summary>
+ Modifie le paramètre avec la valeur
+ </summary>
+ <param name="name">Nom du paramètre à modifier</param>
+ <param name="value">Valeur</param>
+</member>
+<member name="M:FoxGameOfLife.ParameterFileReader.WriteFile(System.String)">
+ <summary>
+ Ecrit dans le fichier tous les paramètres enregistrés
+ </summary>
+ <param name="path">Chemin d'accès au fichier</param>
+</member>
+<member name="M:FoxGameOfLife.ParameterFileReader.AddParameter(System.String,System.String)">
+ <summary>
+ Ajouter un paramètre avec sa valeur
+ </summary>
+ <param name="name">Nom du paramètre</param>
+ <param name="value">Valeur du paramètre</param>
+</member>
+<member name="M:FoxGameOfLife.ParameterFileReader.DeleteParameter(System.String)">
+ <summary>
+ Supprime un paramètre
+ </summary>
+ <param name="name">nom du paramètre</param>
+</member>
+<member name="M:FoxGameOfLife.ParameterFileReader.Exist(System.String)">
+ <summary>
+ Retourne vrai si le paramètre existe
+ </summary>
+ <param name="name">Nom du paramètre</param>
+ <returns>True si le paramètre existe sinon retourne false </returns>
+</member>
+<member name="M:FoxGameOfLife.ParameterFileReader.GetParameter(System.String)">
+ <summary>
+ Récupère la valeur d'un paramètre
+ </summary>
+ <param name="name">nom du paramètre</param>
+ <returns>Valeur du paramètre</returns>
+</member>
+<member name="M:FoxGameOfLife.ParameterFileReader.GetBoolParameter(System.String,System.Boolean)">
+ <summary>
+ Récupère la valeur d'un paramètre au format Boolean
+ </summary>
+ <param name="name">Nom du paramètre</param>
+ <param name="defaultparameter">Paramètre retourné si le paramètre n'existe pas ou qu'une erreur se produise</param>
+ <returns></returns>
+</member>
+<member name="M:FoxGameOfLife.ParameterFileReader.GetIntParameter(System.String,System.Int32)">
+ <summary>
+ Récupère la valeur d'un paramètre au format integer
+ </summary>
+ <param name="name">Nom du paramètre</param>
+ <param name="defaultparameter">Paramètre retourné en cas d'erreur ou si le paramètre n'existe pas</param>
+ <returns></returns>
+</member>
+<member name="T:FoxGameOfLife.ParameterFileReader.ParameterRelation">
+ <summary>
+ Relation entre un nom et une valeur
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.GestionPinceaux.Remplisseur">
+ <summary>
+ Fonction de remplissage
+ </summary>
+</member>
+<member name="M:FoxGameOfLife.GestionPinceaux.PinceauLigne(System.Int32,System.Byte)">
+ <summary>
+ Fonction de remplissage en ligne
+ </summary>
+ <param name="_y">Ligne</param>
+ <param name="_valeur">Valeur de remplissage</param>
+</member>
+<member name="M:FoxGameOfLife.GestionPinceaux.PinceauColonne(System.Int32,System.Byte)">
+ <summary>
+ Fonction de remplissage en colonne
+ </summary>
+ <param name="_x">Colonne</param>
+ <param name="_valeur">Valeur de remplissage</param>
+</member>
+<member name="M:FoxGameOfLife.RecupererTouche.RecupererTouche_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Récupère la touche enfoncé
+ </summary>
+ <param name="sender">Objet trigger</param>
+ <param name="e">Event clavier</param>
+</member>
+</members>
+</doc>
